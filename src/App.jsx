@@ -7,6 +7,8 @@ import Trainers from './components/Trainers';
 import Transformations from './components/Transformations';
 import Testimonials from './components/Testimonials';
 import Programs from './components/Programs';
+import Schedule from './components/Schedule';
+import BMICalculator from './components/BMICalculator';
 import CTABanner from './components/CTABanner';
 import AppPromo from './components/AppPromo';
 import Contact from './components/Contact';
@@ -20,7 +22,9 @@ function App() {
         <Hero />
         <Features />
         <Programs />
+        <Schedule />
         <Membership />
+        <BMICalculator />
         <Transformations />
         <Trainers />
         <Testimonials />
